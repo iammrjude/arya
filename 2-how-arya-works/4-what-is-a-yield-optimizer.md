@@ -11,11 +11,13 @@ A yield optimizer is more than a simple router — it's an intelligent system th
 ## What Arya's Yield Optimizer Does
 
 ### Initial Routing
+
 - Finds the best lending yield or lowest borrowing rate
 - Routes assets to the optimal money market (e.g. Aave, Compound, Morpho)
 - Eliminates manual comparison across platforms
 
 ### Continuous Management
+
 - Monitors yield/borrow rates across protocols 24/7
 - Auto-rebalances when better opportunities appear
 - Adapts to risk, volatility, protocol liquidity, and gas costs
@@ -32,7 +34,9 @@ A yield optimizer is more than a simple router — it's an intelligent system th
 ---
 
 ### Without a Yield Optimizer
+
 You manually check rates, withdraw from Protocol A, deposit to Protocol B, pay gas fees, repeat daily.
 
 ### With Arya
+
 Your positions automatically move to wherever rates are best — while you sleep.

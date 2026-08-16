@@ -1,43 +1,43 @@
 # Why Arya?
 
-### The Arya Advantage
+## The Arya Advantage
 
 Arya abstracts away the fragmented, inefficient experience and offers:
 
-**Unified Access to DeFi Markets**
+### Unified Access to DeFi Markets
 
 Access multiple money markets from a **single dashboard** — no need to navigate across Aave, Silo or Euler separately.
 
-**Auto-Migrating Positions**
+### Auto-Migrating Positions
 
 Your lending or borrowing positions are **automatically rebalanced** when better rates are available elsewhere — with zero manual input.
 
-**Maximum Yield for Depositors**
+### Maximum Yield for Depositors
 
 Your idle assets are always deployed to the **highest-yielding protocol**, ensuring you never miss out on better returns.
 
-**Lowest Borrowing Cost for Debtors**
+### Lowest Borrowing Cost for Debtors
 
 Borrow assets at the **lowest available APR**, with optimized collateral selection and liquidation thresholds.
 
-**Intelligent Automation**
+### Intelligent Automation
 
 Arya uses a smart optimization engine to handle:
 
-* Rate monitoring
-* Rebalancing
-* Risk assessments
-* Strategy switching
+- Rate monitoring
+- Rebalancing
+- Risk assessments
+- Strategy switching
 
 All in real-time.
 
-**Modular, Composable Design**
+### Modular, Composable Design
 
 Easily integrate with new DeFi protocols or plug Arya into your own app using SDKs and APIs.
 
-***
+---
 
-### Who Should Use Arya?
+## Who Should Use Arya?
 
 Arya is designed for:
 
@@ -48,5 +48,3 @@ Arya is designed for:
 | Protocol Integrators  | Simplify backend complexity               |
 | DeFi Developers       | Build on top of a unified yield engine    |
 | Institutional Users   | Improve capital efficiency and automation |
-
-###

@@ -2,17 +2,17 @@
 
 Arya integrates with multiple DeFi lending and borrowing protocols via a standardized **Protocol Adapter** system. These adapters abstract away the complexity of different protocol interfaces and enable seamless routing, deposits, and withdrawals — all through a unified backend.
 
-***
+---
 
-### What Is a Protocol Adapter?
+## What Is a Protocol Adapter?
 
 A **Protocol Adapter** is a modular smart contract component that connects Arya to an external lending/borrowing protocol. It translates the generic actions (e.g., deposit, withdraw, get APY) into the protocol-specific implementation under the hood.
 
 Each adapter conforms to a shared interface and can be added, removed, or upgraded **without modifying core logic.**
 
-***
+---
 
-### Key Functions of an Adapter
+## Key Functions of an Adapter
 
 | Function            | Description                                                                |
 | ------------------- | -------------------------------------------------------------------------- |
@@ -23,14 +23,14 @@ Each adapter conforms to a shared interface and can be added, removed, or upgrad
 
 These functions allow Arya to interact with any integrated protocol in a consistent way, no matter how different their underlying smart contracts are.
 
-***
+---
 
-### Adapter Interface
+## Adapter Interface
 
 All adapters implement a base interface like the following (Solidity-style):
 
 ```solidity
-solidityCopyEditinterface IProtocolAdapter {
+interface IProtocolAdapter {
     function deposit(uint256 amount) external;
     function withdraw(uint256 amount) external;
     function getCurrentAPY() external view returns (uint256);
@@ -40,34 +40,34 @@ solidityCopyEditinterface IProtocolAdapter {
 
 This ensures each adapter remains **interchangeable**, enabling dynamic routing and modular scaling.
 
-***
+---
 
-### Supported Protocols (Initial Phase)
+## Supported Protocols (Initial Phase)
 
 Arya includes built-in adapters for major DeFi protocols:
 
-* **Aave Adapter**
-* **Silo**
-* **Euler**
+- **Aave Adapter**
+- **Silo**
+- **Euler**
 
 Each adapter is built with rigorous testing and fallback protections to ensure safety during interaction.
 
-***
+---
 
-### Benefits of Using Adapters
+## Benefits of Using Adapters
 
-* **Plug-and-Play Architecture**\
+- **Plug-and-Play Architecture**\
   Add new protocols without redeploying core contracts.
-* **Protocol Diversity**\
+- **Protocol Diversity**\
   Access a broader spectrum of interest rates and features.
-* **Upgrade Flexibility**\
+- **Upgrade Flexibility**\
   Upgrade or replace individual adapters without disrupting user positions.
-* **Gas Optimization**\
+- **Gas Optimization**\
   Each adapter is optimized for low-overhead interactions with its target protocol.
 
-***
+---
 
-### Adapter Lifecycle
+## Adapter Lifecycle
 
 1. **Deployment**\
    The adapter is deployed with a reference to its protocol’s relevant smart contracts.
@@ -78,9 +78,9 @@ Each adapter is built with rigorous testing and fallback protections to ensure s
 4. **Maintenance**\
    If a protocol changes, the adapter can be swapped out with a new version safely.
 
-***
+---
 
-### Example: Aave Adapter Flow
+## Example: Aave Adapter Flow
 
 1. User deposits USDC
 2. StrategyManager selects Aave Adapter based on yield

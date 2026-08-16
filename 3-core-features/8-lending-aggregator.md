@@ -1,18 +1,18 @@
 # Lending Aggregator
 
-### What Is a Lending Aggregator?
+## What Is a Lending Aggregator?
 
 Instead of manually researching and depositing your funds into one protocol, a Lending Aggregator:
 
-* **Aggregates liquidity options across various lending platforms**
-* **Routes your deposits to the highest-yielding pool**
-* **Manages your positions dynamically to maximize returns**
+- **Aggregates liquidity options across various lending platforms**
+- **Routes your deposits to the highest-yielding pool**
+- **Manages your positions dynamically to maximize returns**
 
 You simply deposit your assets into Arya, and it does the rest.
 
-***
+---
 
-### How Does It Work?
+## How Does It Work?
 
 1. **Unified Access:**\
    Connect to many lending protocols via a single interface.
@@ -23,22 +23,22 @@ You simply deposit your assets into Arya, and it does the rest.
 4. **Ongoing Management:**\
    Monitor changing market conditions and reallocate funds to maintain maximum returns.
 
-***
+---
 
-### Why Use a Lending Aggregator?
+## Why Use a Lending Aggregator?
 
 | Benefits                  | Explanation                                               |
 | ------------------------- | --------------------------------------------------------- |
 | **Maximized Yield**       | Earn the highest possible interest without manual effort. |
-| **Simplified Experience** | One deposit, multiple protocol access via Arya.         |
+| **Simplified Experience** | One deposit, multiple protocol access via Arya.           |
 | **Time-Saving**           | No need to constantly monitor multiple platforms.         |
 | **Risk Diversification**  | Funds can be spread intelligently across protocols.       |
 
-***
+---
 
-### Example Use Case
+## Example Use Case
 
 You want to lend DAI:
 
-* Without an aggregator, you might pick one protocol, missing better yields elsewhere.
-* With Arya, your DAI is dynamically routed to the protocol offering the highest interest at that moment, ensuring better returns with no extra work.
+- Without an aggregator, you might pick one protocol, missing better yields elsewhere.
+- With Arya, your DAI is dynamically routed to the protocol offering the highest interest at that moment, ensuring better returns with no extra work.

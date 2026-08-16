@@ -30,9 +30,9 @@ You just shouldn't waste time on operational grunt work.
 
 ## What Sets Arya Apart for Active Debt Managers
 
-### 1. Unified Protocol Access  
+### 1. Unified Protocol Access
 
-**One Dashboard for All Your DeFi Debt — Past, Present, and Future**
+#### One Dashboard for All Your DeFi Debt — Past, Present, and Future
 
 #### The Problem Today
 
@@ -73,9 +73,9 @@ No more switching dashboards. From Arya, you can:
 - Set alerts for liquidation risk
 
 **Example:**  
-Your Aave health factor drops to 1.3  
+Your Aave health factor drops to 1.3
 
-- Old way: open Aave → connect wallet → navigate UI → add collateral  
+- Old way: open Aave → connect wallet → navigate UI → add collateral
 - With Arya: click position → "Add 2 ETH" → confirm
 
 Done in seconds.
@@ -128,15 +128,15 @@ Going forward, all new borrows through Arya are automatically routed to the best
 Request: "Borrow $10K USDC"  
 → Arya scans all protocols in real-time  
 → Evaluates APR, LTV, liquidation threshold, and gas  
-→ Routes to optimal protocol automatically  
+→ Routes to optimal protocol automatically
 
 You always get the best available terms without research.
 
 ---
 
-### 2. Real-Time Borrow Rate Comparisons  
+### 2. Real-Time Borrow Rate Comparisons
 
-**Make Informed Decisions With Live Data**
+#### Make Informed Decisions With Live Data
 
 #### The Problem
 
@@ -155,18 +155,18 @@ This takes time — and mistakes are expensive.
 See all relevant data **side by side**, in real time:
 
 | Protocol | APR  | Collateral Needed | Your Health Factor | Gas Cost |
-|----------|------|-------------------|-------------------|----------|
-| Morpho   | 4.5% | $13,000 ETH       | 1.52              | $8       |
-| Compound | 4.8% | $13,500 ETH       | 1.48              | $15      |
-| Aave     | 5.2% | $12,800 ETH       | 1.55              | $12      |
+| -------- | ---- | ----------------- | ------------------ | -------- |
+| Morpho   | 4.5% | $13,000 ETH       | 1.52               | $8       |
+| Compound | 4.8% | $13,500 ETH       | 1.48               | $15      |
+| Aave     | 5.2% | $12,800 ETH       | 1.55               | $12      |
 
 Decision time: **seconds, not minutes**.
 
 ---
 
-### 3. Precision Execution  
+### 3. Precision Execution
 
-**Advanced Tools for Sophisticated Strategies**
+#### Advanced Tools for Sophisticated Strategies
 
 Arya is built for more than basic borrowing.
 
@@ -288,7 +288,7 @@ Automation executes **only** when your conditions are met.
 
 ### Control Without Complexity
 
-**The DeFi Dilemma**
+#### The DeFi Dilemma
 
 - Simple platforms → no control
 - Full control → write your own contracts
@@ -298,13 +298,13 @@ Automation executes **only** when your conditions are met.
 You express intent and constraints.  
 Arya handles monitoring and execution.
 
-| Feature                      | What It Means                      | Example                                      |
-|------------------------------|-----------------------------------|----------------------------------------------|
-| Manual Protocol Selection    | Choose exactly where to borrow    | "Use Aave e-mode for this position"         |
-| Custom Collateral Allocation | Decide which assets back which loans | "Use wBTC here, ETH there"                |
-| Trigger-Based Rebalancing    | Automate risk responses           | "If ETH drops 15%, reduce leverage by 25%"  |
-| Gas Cost Awareness           | See costs before acting           | "$45 gas saves $600/year"                   |
-| Performance Metrics          | Measure efficiency                | "Interest saved vs baseline"                |
+| Feature                      | What It Means                        | Example                                    |
+| ---------------------------- | ------------------------------------ | ------------------------------------------ |
+| Manual Protocol Selection    | Choose exactly where to borrow       | "Use Aave e-mode for this position"        |
+| Custom Collateral Allocation | Decide which assets back which loans | "Use wBTC here, ETH there"                 |
+| Trigger-Based Rebalancing    | Automate risk responses              | "If ETH drops 15%, reduce leverage by 25%" |
+| Gas Cost Awareness           | See costs before acting              | "$45 gas saves $600/year"                  |
+| Performance Metrics          | Measure efficiency                   | "Interest saved vs baseline"               |
 
 ---
 

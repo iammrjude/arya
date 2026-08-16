@@ -1,30 +1,30 @@
 # Borrowing Optimizer
 
-### Why Borrowing Optimization Matters
+## Why Borrowing Optimization Matters
 
 Borrowing rates across protocols fluctuate rapidly. Without an optimization strategy, users risk:
 
-* Paying higher interest than necessary
-* Using suboptimal collateral, increasing liquidation risk
-* Missing out on cost-saving opportunities
-* Struggling with manual position management
+- Paying higher interest than necessary
+- Using suboptimal collateral, increasing liquidation risk
+- Missing out on cost-saving opportunities
+- Struggling with manual position management
 
 The Borrowing Optimizer automates this process, giving you a strategic advantage.
 
-***
+---
 
-### Key Components
+## Key Components
 
-| Component                  | Role                                                                                         |
-| -------------------------- | -------------------------------------------------------------------------------------------- |
-| **Rate Monitor**           | Tracks borrowing APRs across multiple protocols in real time.                                |
-| **Collateral Analyzer**    | Evaluates collateral requirements and liquidation thresholds to minimize risk.               |
-| **Cost Efficiency Module** | Calculates whether rate improvements justify migration costs (flash loan fees + gas).        |
+| Component                  | Role                                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Rate Monitor**           | Tracks borrowing APRs across multiple protocols in real time.                                     |
+| **Collateral Analyzer**    | Evaluates collateral requirements and liquidation thresholds to minimize risk.                    |
+| **Cost Efficiency Module** | Calculates whether rate improvements justify migration costs (flash loan fees + gas).             |
 | **Auto-Optimizer Engine**  | Automatically migrates your debt to protocols offering better terms when economically beneficial. |
 
-***
+---
 
-### How It Works — Step by Step
+## How It Works — Step by Step
 
 1. **Initial Assessment:**\
    When you initiate a borrow, the optimizer scans all supported protocols and selects the one with the lowest APR and optimal collateral terms.
@@ -40,7 +40,7 @@ The Borrowing Optimizer automates this process, giving you a strategic advantage
 
 4. **Automated Debt Migration:**\
    If migration is profitable, the optimizer executes an atomic transaction using flash loans:
-   
+
    **The Migration Process:**
    - Flash borrows your debt amount from a liquidity pool
    - Repays your existing loan on Protocol A
@@ -57,11 +57,12 @@ The Borrowing Optimizer automates this process, giving you a strategic advantage
    - Preferred collateral types
    - Auto-rebalance preferences
 
-***
+---
 
-### Understanding Migration Costs
+## Understanding Migration Costs
 
 **What happens to your debt:**
+
 - Original debt: 10,000 USDC @ 8% APR on Protocol A
 - After migration: 10,009 USDC @ 5% APR on Protocol B
 
@@ -69,6 +70,7 @@ The Borrowing Optimizer automates this process, giving you a strategic advantage
 The flash loan fee (0.09% = 9 USDC) is added to your new debt position.
 
 **Is it worth it?**
+
 - Annual savings: (10,009 × 3%) = ~$300/year
 - One-time cost: $9 flash loan fee + gas
 - Break-even: ~11 days
@@ -76,9 +78,9 @@ The flash loan fee (0.09% = 9 USDC) is added to your new debt position.
 
 The optimizer only migrates when long-term savings significantly outweigh short-term costs.
 
-***
+---
 
-### Benefits at a Glance
+## Benefits at a Glance
 
 ✓ **Slash borrowing costs** — Always pay the lowest available APR  
 ✓ **Lower liquidation risk** — Optimize collateral usage and safety buffers  
@@ -86,22 +88,25 @@ The optimizer only migrates when long-term savings significantly outweigh short-
 ✓ **Transparent operations** — Full visibility into migration decisions and costs  
 ✓ **Cost-conscious** — Only migrates when economically beneficial
 
-***
+---
 
-### Practical Scenario
+## Practical Scenario
 
 **Initial Position:**
 You borrow 50,000 USDC against your ETH collateral:
+
 - Arya routes to Protocol X: 6% APR
 - Monthly interest cost: $250
 
 **Rate Change Detected:**
 Protocol Y now offers:
+
 - 4.5% APR (1.5% lower)
 - Better collateral ratio (85% LTV vs 80%)
 - Lower liquidation threshold
 
 **Migration Analysis:**
+
 - Potential annual savings: 50,000 × 1.5% = $750/year
 - Migration costs: ~$45 flash loan fee + $30 gas = $75
 - Break-even: ~37 days
@@ -109,6 +114,7 @@ Protocol Y now offers:
 
 **Automated Migration:**
 In one atomic transaction:
+
 - Debt migrates to Protocol Y
 - New position: 50,045 USDC @ 4.5% APR
 - Monthly interest cost: $188 (saving $62/month)
@@ -116,9 +122,9 @@ In one atomic transaction:
 
 **Your experience:** You wake up to better borrowing terms — automatically.
 
-***
+---
 
-### Important Notes
+## Important Notes
 
 - **Atomic transactions:** Migrations either fully succeed or fully revert — no partial failures
 - **Cost transparency:** All fees are calculated and displayed before execution

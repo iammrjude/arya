@@ -2,24 +2,24 @@
 
 > Capital that moves where it performs best — automatically.
 
-***
+---
 
-### What is Dynamic Routing?
+## What is Dynamic Routing?
 
 Dynamic Routing in DeFi means directing funds to the best protocol **in real-time**, based on continuously changing factors like:
 
-* Interest rates (APY/APR)
-* Protocol liquidity
-* Gas costs
-* Risk metrics
-* Asset demand/supply
+- Interest rates (APY/APR)
+- Protocol liquidity
+- Gas costs
+- Risk metrics
+- Asset demand/supply
 
 In traditional aggregators, routing happens **once** — when you first deposit.\
 In **Arya**, routing is **ongoing**.
 
-***
+---
 
-### **Example:**
+## Example:
 
 Let’s say you deposit DAI.
 
@@ -29,24 +29,24 @@ Let’s say you deposit DAI.
 
 ✅ **Always earning the best yield — without switching manually.**
 
-***
+---
 
-### What is Auto-Rebalancing?
+## What is Auto-Rebalancing?
 
 Auto-rebalancing is the **automated movement of your assets** between protocols to maintain optimal performance.
 
 Unlike static positions, Arya constantly asks:
 
-* Is there a better rate now?
-* Has risk in the current protocol increased?
-* Would another pool offer better efficiency?
-* Is the gas cost worth the move?
+- Is there a better rate now?
+- Has risk in the current protocol increased?
+- Would another pool offer better efficiency?
+- Is the gas cost worth the move?
 
 If the answer is **yes**, it initiates a rebalance.
 
-***
+---
 
-### How It Works Under the Hood
+## How It Works Under the Hood
 
 1. **Rate Engine**\
    Continuously fetches live APY/APR data from integrated protocols.
@@ -59,29 +59,29 @@ If the answer is **yes**, it initiates a rebalance.
 
 ⏱️ All of this happens within seconds — per block.
 
-***
+---
 
-### Non-Custodial, Permissionless
+## Non-Custodial, Permissionless
 
 You remain in full control.\
 Arya uses **non-custodial smart contracts** — you can withdraw anytime, and rebalancing does **not** require Arya to ever own your funds.
 
-***
+---
 
-### Intelligent Routing Engine in Action
+## Intelligent Routing Engine in Action
 
-| Event                             | Arya Reaction                         |
+| Event                             | Arya Reaction                           |
 | --------------------------------- | --------------------------------------- |
 | Protocol B offers 0.5% better APY | Rebalance to Protocol B                 |
 | Protocol A’s liquidity drops      | Exit and route to safer pool            |
 | Gas fee spikes                    | Delay move until cost-benefit justifies |
 | Stablecoin demand rises           | Prioritize lending in high-demand pool  |
 
-***
+---
 
-#### Visual Workflow (Text Version)
+### Visual Workflow (Text Version)
 
-```
+```text
 [ User Deposit ]
         ↓
 [ Aggregator Layer → Best APY ]
